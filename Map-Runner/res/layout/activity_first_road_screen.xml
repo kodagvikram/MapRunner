@@ -1,0 +1,96 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:customfontdemo="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#d2be96"
+    tools:context="com.MWC.map_runner.FirstRoadScreen" >
+
+    <HorizontalScrollView 
+        android:id="@+id/HORIZANTAL_SCROLLVIEW"
+         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        android:fillViewport="true"
+        >
+    <ScrollView
+        android:id="@+id/VERTICAL_SCROLLVIEW"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        android:background="#d2be96"
+        android:scrollbars="none"
+        android:fillViewport="true"
+        >
+        <RelativeLayout 
+            android:id="@+id/MAIN_ROAD_RELATIVRLAYOUT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#8dc63f"
+            >
+        <RelativeLayout
+            android:id="@+id/MIDDLE_MAP_ROAD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#d2be96" >
+        </RelativeLayout>
+        
+        </RelativeLayout>
+    </ScrollView>
+    </HorizontalScrollView>
+
+    <Button
+        android:id="@+id/PAUSEPLAY"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/pause" />
+
+    <com.MWC.map_runner.MyTextView
+        android:id="@+id/ScoreLable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:text="Score : "
+        android:textColor="#181009"
+        android:textSize="16sp"
+        customfontdemo:fontName="HoboStd.otf" />
+
+    <com.MWC.map_runner.MyTextView
+        android:id="@+id/SCORETEXTVIEW"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/ScoreLable"
+        android:text=""
+        android:textColor="#181009"
+        android:textSize="16sp"
+        customfontdemo:fontName="HoboStd.otf" />
+
+    <com.MWC.map_runner.MyTextView
+        android:id="@+id/HIGHScoreLable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/SCORETEXTVIEW"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:text="High Score : "
+        android:textColor="#181009"
+        android:textSize="16sp"
+        customfontdemo:fontName="HoboStd.otf" />
+
+    <com.MWC.map_runner.MyTextView
+        android:id="@+id/HIGHSCORETEXTVIEW"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/SCORETEXTVIEW"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/HIGHScoreLable"
+        android:text=""
+        android:textColor="#181009"
+        android:textSize="16sp"
+        customfontdemo:fontName="HoboStd.otf" />
+
+</RelativeLayout>

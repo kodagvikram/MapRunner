@@ -1,0 +1,109 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/MAIN_ROAD_RELATIVRLAYOUT"
+    tools:context="com.MWC.map_runner.GameMenuActivity" >
+    
+    <!-- 
+    <ImageView 
+        android:id="@+id/LOGOIMAGEVIEW"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/maprunnerlogo"
+        />
+    
+     <ImageView 
+        android:id="@+id/LEFTARROWIMAGE"
+        android:layout_width="30dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/LOGOIMAGEVIEW"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/leftarrow"
+        />
+     
+     <ImageView 
+        android:id="@+id/RIGHTARROWIMAGE"
+        android:layout_width="30dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/LOGOIMAGEVIEW"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/rightarrow"
+        /> -->
+     
+     <RelativeLayout 
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:background="@drawable/menubackimage"
+         >
+          <Button
+        android:id="@+id/PLAYBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_centerHorizontal="true"
+      android:layout_marginTop="250dp"
+        android:background="@android:color/transparent"
+        android:text=" Play "
+        android:textColor="#0041b2"
+        android:textSize="70dp"
+        android:textStyle="bold" />
+    
+
+    <Button
+        android:id="@+id/SHARE"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/PLAYBTN"
+        android:background="@android:color/transparent"
+        android:text="Share"
+        android:textColor="#0041b2"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+         
+     </RelativeLayout>
+     
+   
+
+
+    <!--
+          <Button
+         android:id="@+id/ABOUTUS"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignBaseline="@+id/SHARE"
+         android:layout_alignBottom="@+id/SHARE"
+         android:layout_alignParentLeft="true"
+         android:background="@android:color/transparent"
+         android:layout_marginLeft="5dp"
+         android:text=""
+         android:layout_toRightOf="@+id/SHARE"
+         android:textColor="#0041b2"
+         android:textSize="30dp"
+         android:textStyle="bold" />
+    -->
+
+   <!--  <Button
+        android:id="@+id/EXITBTN"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/SHARE"
+       android:layout_alignParentRight="true"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/rounded_border_button"
+        android:text="Exit"
+        android:textColor="#0041b2"
+        android:textSize="50dp"
+        android:textStyle="bold" /> -->
+
+</RelativeLayout>

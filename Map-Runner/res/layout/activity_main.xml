@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/global_relative"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000"
+     >
+
+    <ScrollView
+        android:id="@+id/SCROLLVIEW1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" 
+        >
+
+        <RelativeLayout
+            android:id="@+id/PARETLAYOUT"
+            android:layout_width="match_parent"
+            android:layout_height="53000dp"
+             >
+             <!-- ______________________________________________________________________________  -->
+              <RelativeLayout             
+            android:id="@+id/BACKLAYOUT"
+            android:layout_width="match_parent"
+            android:layout_height="5300dp"
+            android:background="@drawable/londonmap"
+             >
+                    <ImageView 
+                      android:id="@+id/MIDDLEIMAGE"
+                      android:layout_width="1dp" 
+                      android:layout_height="5dp"
+                      android:layout_centerHorizontal="true"
+                      />
+            <!-- ________________LEFT IMAGES START______________________________________________________________  -->     
+                    <ImageView 
+                      android:id="@+id/LEFTimage1"
+                      android:layout_width="match_parent" 
+                      android:layout_height="900dp"
+                     android:layout_toLeftOf="@+id/MIDDLEIMAGE"
+                       android:background="#4cb7db"
+                      />
+                      <ImageView 
+                      android:id="@+id/LEFTimage2"
+                      android:layout_width="match_parent" 
+                      android:layout_height="900dp"
+                      android:layout_below="@+id/LEFTimage1"
+                     android:layout_toLeftOf="@+id/MIDDLEIMAGE"
+                       android:background="#c6e2ff"
+                      />
+                  
+                       <ImageView 
+                      android:id="@+id/LEFTimage3"
+                      android:layout_width="match_parent" 
+                      android:layout_height="900dp"
+                      android:layout_below="@+id/LEFTimage2"
+                     android:layout_toLeftOf="@+id/MIDDLEIMAGE"
+                       android:background="#a0db8e"
+                      />
+                      
+                       <ImageView 
+                      android:id="@+id/LEFTimage4"
+                      android:layout_width="match_parent" 
+                      android:layout_height="900dp"
+                      android:layout_below="@+id/LEFTimage3"
+                     android:layout_toLeftOf="@+id/MIDDLEIMAGE"
+                       android:background="#c4fcdd"
+                      />
+                      
+                        <ImageView 
+                      android:id="@+id/LEFTimage5"
+                      android:layout_width="match_parent" 
+                      android:layout_height="900dp"
+                      android:layout_below="@+id/LEFTimage4"
+                     android:layout_toLeftOf="@+id/MIDDLEIMAGE"
+                       android:background="#ddd5cf"
+                      />
+                        
+                         <ImageView 
+                      android:id="@+id/LEFTimage6"
+                      android:layout_width="match_parent" 
+                      android:layout_height="900dp"
+                      android:layout_below="@+id/LEFTimage5"
+                     android:layout_toLeftOf="@+id/MIDDLEIMAGE"
+                       android:background="#aebbc7"
+                      />
+                      
+                          <ImageView 
+                      android:id="@+id/LEFTimage7"
+                      android:layout_width="match_parent" 
+                      android:layout_height="900dp"
+                      android:layout_below="@+id/LEFTimage6"
+                     android:layout_toLeftOf="@+id/MIDDLEIMAGE"
+                       android:background="#6a7d8e"
+                      />
+                   <!-- __________LEFT IMAGES END____________________________________________________________________  -->
+                  
+                   <!-- ________________RIGHT IMAGES START______________________________________________________________  -->     
+                    <ImageView 
+                      android:id="@+id/RIGHTimage1"
+                      android:layout_width="match_parent" 
+                      android:layout_height="900dp"
+                     android:layout_toRightOf="@+id/MIDDLEIMAGE"
+                       android:background="#794044"
+                      />
+                       <ImageView 
+                      android:id="@+id/RIGHTimage2"
+                      android:layout_width="match_parent" 
+                      android:layout_height="900dp"
+                      android:layout_below="@+id/RIGHTimage1"
+                     android:layout_toRightOf="@+id/MIDDLEIMAGE"
+                       android:background="#74a18e"
+                      />
+                       
+                         <ImageView 
+                      android:id="@+id/RIGHTimage3"
+                      android:layout_width="match_parent" 
+                      android:layout_height="900dp"
+                      android:layout_below="@+id/RIGHTimage2"
+                     android:layout_toRightOf="@+id/MIDDLEIMAGE"
+                       android:background="#b06660"
+                      />
+                         
+                        <ImageView 
+                      android:id="@+id/RIGHTimage4"
+                      android:layout_width="match_parent" 
+                      android:layout_height="900dp"
+                      android:layout_below="@+id/RIGHTimage3"
+                     android:layout_toRightOf="@+id/MIDDLEIMAGE"
+                       android:background="#d9a88f"
+                      />   
+                      
+                          <ImageView 
+                      android:id="@+id/RIGHTimage5"
+                      android:layout_width="match_parent" 
+                      android:layout_height="900dp"
+                      android:layout_below="@+id/RIGHTimage4"
+                     android:layout_toRightOf="@+id/MIDDLEIMAGE"
+                       android:background="#eac3b8"
+                      />
+                          
+                            <ImageView 
+                      android:id="@+id/RIGHTimage6"
+                      android:layout_width="match_parent" 
+                      android:layout_height="900dp"
+                      android:layout_below="@+id/RIGHTimage5"
+                     android:layout_toRightOf="@+id/MIDDLEIMAGE"
+                       android:background="#ca8f42"
+                      />
+                            
+                              <ImageView 
+                      android:id="@+id/RIGHTimage7"
+                      android:layout_width="match_parent" 
+                      android:layout_height="900dp"
+                      android:layout_below="@+id/RIGHTimage6"
+                     android:layout_toRightOf="@+id/MIDDLEIMAGE"
+                       android:background="#95a1c3"
+                      />
+                   <!-- ________________RIGHT IMAGES END______________________________________________________________  -->     
+                      
+                  
+               <ImageView
+                android:id="@+id/pathimg1"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:background="#FFFF00" 
+               android:layout_marginTop="1800dp"
+                >
+              </ImageView>
+              
+                 <RelativeLayout
+                android:id="@+id/pathimg2"
+                android:layout_width="125dp"
+                android:layout_height="500dp"
+                android:background="#FFFF00" 
+               android:layout_marginTop="1000dp"
+              android:layout_alignParentRight="true"
+                >
+                
+              </RelativeLayout> 
+              
+                  <RelativeLayout
+                android:id="@+id/pathimg3"
+                android:layout_width="125dp"
+                android:layout_height="500dp"
+                android:background="#FFFF00" 
+               android:layout_marginTop="1000dp"
+              android:layout_alignParentLeft="true"
+               
+                >
+              </RelativeLayout>
+              </RelativeLayout>
+<!-- __________________________End ROAD BACKGRIUND_________________________________________________  -->
+
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="match_parent"
+                android:layout_height="5300dp"
+                android:background="#FFFF00" 
+              android:layout_centerHorizontal="true"
+                >
+            </ImageView>
+            
+        </RelativeLayout>
+    </ScrollView>
+
+     
+    
+     <TextView
+                android:id="@+id/Counttextview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="TEXTVIEW"
+                android:visibility="gone"
+                android:textColor="#000000"
+                 >
+            </TextView>
+    
+     <ImageView
+                android:id="@+id/BOB"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/bobimage"
+              android:layout_alignParentBottom="true"
+              android:layout_marginBottom="120dp"
+                android:layout_marginLeft="160dp"
+                android:text=""
+                 />
+     
+       <ImageView
+                android:id="@+id/SIMANS"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/simamimage"
+              android:layout_alignParentBottom="true"
+              android:layout_marginBottom="5dp"
+                android:layout_marginLeft="160dp"
+                android:text=""
+                 />
+           
+            
+     <ImageView 
+         android:id="@+id/SWIPIMAGEVIEW"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:background="@android:color/transparent"
+         />
+
+     <TextView
+         android:id="@+id/timerValue"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_above="@+id/BOB"
+         android:layout_alignParentLeft="true"
+         android:layout_marginBottom="50dp"
+         android:layout_marginLeft="30dp"
+         android:text="0:0:0"
+         android:textColor="#000000"
+         android:textSize="20sp" />
+     
+</RelativeLayout>

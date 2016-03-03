@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">London Map Runner</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_first_road_screen">FirstRoadScreen</string>
+    <string name="title_activity_game_menu">GameMenuActivity</string>
+    <string name="banner_ad_unit_id">ca-app-pub-1192482966027684/6224430657</string>
+    <string name="game_top_banner_ad_unit_id">ca-app-pub-1192482966027684/3746165453</string>
+    <string name="game_Bottom_banner_ad_unit_id">ca-app-pub-1192482966027684/5222898652</string>
+    <string name="pause_top_banner_ad_unit_id">ca-app-pub-1192482966027684/8176365056</string>
+    <string name="pause_Bottom_banner_ad_unit_id">ca-app-pub-1192482966027684/9653098255</string>
+
+</resources>

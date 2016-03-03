@@ -1,0 +1,105 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:customfontdemo="http://schemas.android.com/apk/res-auto"
+      xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/gameover_Relativelayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gameoverimage" >
+    
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/game_Bottom_banner_ad_unit_id">
+    </com.google.android.gms.ads.AdView>
+    
+    
+     <com.google.android.gms.ads.AdView
+        android:id="@+id/adView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+       android:layout_alignParentTop="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/game_top_banner_ad_unit_id">
+    </com.google.android.gms.ads.AdView>
+
+    <RelativeLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:padding="5dp" >
+
+        <Button
+            android:id="@+id/PLAYAGAIN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@android:color/transparent"
+            android:text="Play Again"
+            android:textColor="#181009"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/RETURN_TO_MENU"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/PLAYAGAIN"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/transparent"
+            android:text="Menu"
+            android:textColor="#181009"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+        
+        <com.MWC.map_runner.MyTextView
+            android:id="@+id/MESSAGETEXTVIEW"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/CURRENTSCORETEXIWIEW"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:text="MESSAGE"
+            android:textColor="#f40808"
+            android:textSize="50dp"
+            android:textStyle="bold" 
+            customfontdemo:fontName="HoboStd.otf"
+            />
+       <com.MWC.map_runner.MyTextView
+            android:id="@+id/CURRENTSCORETEXIWIEW"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/PLAYAGAIN"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:text=""
+            android:textColor="#f40808"
+            android:textSize="35dp"
+            android:textStyle="bold" 
+            customfontdemo:fontName="HoboStd.otf"
+            />
+       
+             <ImageView 
+                 android:id="@+id/BobImage"
+                 android:layout_width="50dp"
+                 android:layout_height="50dp"
+                 android:src="@drawable/bobimage"
+                 />
+        
+               <ImageView 
+                 android:id="@+id/SIMANSImage"
+                 android:layout_width="50dp"
+                 android:layout_height="50dp"
+                 android:src="@drawable/simamimage"
+                 />
+    </RelativeLayout>
+
+</RelativeLayout>
